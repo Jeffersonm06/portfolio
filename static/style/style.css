@@ -1,8 +1,8 @@
 :root {
-    --cor1: #121212;
-    --cor2: #212121;
-    --cor3: #2c2c2c;
-    --cor4: #3a3a3a;
+    --cor1: #080711;
+    --cor2: #0e0d18;
+    --cor3: #1c182b;
+    --cor4: #241d38;
     --font-color1: #979797;
     --font-color2: #ffffff;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .navbar a:hover {
-    background: var(--font-color1);
+    filter: brightness(160%);
     transform: scale(1.05);
 }
 
@@ -265,7 +265,14 @@ p {
 }
 
 .box .link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 20px;
+    color: var(--font-color2);
+    background: var(--cor2);
+    padding: 5px 15px;
+    border-radius: 20px;
 }
 
 @media (max-width: 768px) {
